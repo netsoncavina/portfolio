@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Experiences from "./pages/Experiences";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
         <Route path="experience" element={<Experiences />} />
         <Route path="projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
