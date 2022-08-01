@@ -1,12 +1,16 @@
 import React from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedinIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/Footer.css";
 
 export default function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
+        <a href="https://github.com/netsoncavina" target="_blank">
+          <GitHubIcon />
+        </a>
         <a href="https://www.instagram.com/netsoncavina/" target="_blank">
           <InstagramIcon />
         </a>
