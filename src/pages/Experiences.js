@@ -42,7 +42,7 @@ export default function Experiences() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2017 - 2018"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#ECD444", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Fatec Tatuapé</h3>
@@ -52,7 +52,7 @@ export default function Experiences() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2019 - 2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#ECD444", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Azimute Med</h3>

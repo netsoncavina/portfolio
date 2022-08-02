@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Oi, eu sou o Netson!</h2>
+        <h2>Olá, eu sou o Netson!</h2>
         <div className="prompt">
-          <p>Texto sobre mim</p>
+          <p>Um desenvolvedor apaixonado por programar e aprender</p>
           <a href="https://github.com/netsoncavina" target="_blank">
             <GitHubIcon />
           </a>
