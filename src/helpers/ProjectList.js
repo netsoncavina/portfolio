@@ -12,39 +12,67 @@ export const projectList = [
   {
     name: "League of Legends profile viewer",
     image: projeto1,
+    skills: "HTML, CSS, React, API",
+    description:
+      "Um profile viewer para League of Legends. Permite visualizar as informações do perfil do jogador, obtendo as informações através de uma API publica da RIOT",
+    github: "https://github.com/netsoncavina/lol-profile-viewer",
   },
   {
     name: "Trailerflix",
     image: projeto2,
+    skills: "HTML, CSS, Javascript",
+    description:
+      "Clone da Netflix, feito para exibir trailers de filmes e séries",
+    github: "https://github.com/netsoncavina/TrailerFlix",
   },
   {
     name: "Sistema Fatec",
     image: projeto3,
+    skills: "HTML, CSS, Javascript, React, Node, Express, MongoDB",
+    description:
+      "Projeto fullstack para o sistema Fatec. Permite cadastro e consulta de alunos e professores da Fatec",
+    github: "https://github.com/netsoncavina/client_faculdade",
   },
   {
     name: "Jogo de Plataforma",
     image: projeto4,
+    skills: "Python, PyGame",
+    description:
+      "Jogo de plataforma feito em Python utilizando a biblioteca PyGame. ",
+    github: "https://github.com/netsoncavina/Python-Platformer-Game",
   },
   {
     name: "PlayBay",
     image: projeto5,
+    skills: "HTML, CSS, Javascript, Java, Spring, ThymeLeaf, MySQL, MongoDB",
+    description:
+      "E-commerce feito em Java, permite o cadastro de usuários, produtos e pedidos",
+    github: "https://github.com/netsoncavina/spring-playbay",
   },
 
   {
     name: "Jogo da memória",
     image: projeto7,
+    skills: "HTML, CSS, Javascript",
+    description:
+      "Jogo da memória utilizando personagens de League of Legends. Possui animações feitas em css e javascript",
+    github: "https://github.com/netsoncavina/jogo-da-memoria",
   },
 
   {
     name: "Alien Run",
     image: projeto8,
-  },
-  {
-    name: "Tinder LOL",
-    image: projeto9,
+    skills: "Python, PyGame",
+    description:
+      "Clone do Chrome Dino feito em Python utilizando a biblioteca PyGame",
+    github: "https://github.com/netsoncavina/Chrome-Dinossaur-Clone",
   },
   {
     name: "Runeterra Travel Journal",
     image: projeto6,
+    skills: "HTML, CSS, Javascript, React",
+    description:
+      "Projeto realizado consumindo a API Data Dragon da RIOT, exibe dados sobre as regiões do jogo, como nomes, imagens, etc. Possui sistema de tradução do texto, podendo ter os textos alterados entre português, inglês e alemão",
+    github: "https://github.com/netsoncavina/runeterra_travel_journal",
   },
 ];
