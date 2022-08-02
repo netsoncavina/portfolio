@@ -2,14 +2,14 @@ import "../styles/Home.css";
 import LinkedinIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
-
+import tabtitle from "../helpers/GeneralFunctions";
 export default function Home() {
   function emailObfuscation() {
     const email = "mailto:netsoncavina@gmail.com";
     const emailIcon = document.getElementById("email");
     emailIcon.setAttribute("href", email);
   }
-
+  tabtitle("Portfólio Netson - Home");
   return (
     <div className="home">
       <div className="about">

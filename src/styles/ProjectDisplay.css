@@ -41,7 +41,20 @@
   margin-bottom: 20px;
 }
 
+.arrow-left {
+  left: 10px;
+  position: absolute;
+}
+.arrow-right {
+  right: 10px;
+  position: absolute;
+}
+
 @media only screen and (max-width: 600px) {
+  .project h1 {
+    width: 300px;
+    font-size: 30px;
+  }
   .project img {
     width: 290px;
   }
@@ -50,5 +63,13 @@
   }
   .project h3 {
     max-width: 80%;
+  }
+  .arrow-left {
+    top: 100px;
+    left: 5px;
+  }
+  .arrow-right {
+    top: 100px;
+    right: 5px;
   }
 }
