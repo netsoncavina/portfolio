@@ -35,6 +35,11 @@
   color: white;
 }
 
+.prompt p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .skills {
   font-size: 35px;
   width: 100%;

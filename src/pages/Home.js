@@ -15,7 +15,7 @@ export default function Home() {
       <div className="about">
         <h2>Olá, eu sou o Netson!</h2>
         <div className="prompt">
-          <p>Um desenvolvedor apaixonado por programar e aprender</p>
+          <p>Um desenvolvedor apaixonado por programar e aprender.</p>
           <a href="https://github.com/netsoncavina" target="_blank">
             <GitHubIcon />
           </a>
