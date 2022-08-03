@@ -40,6 +40,7 @@ export const projectList = [
     description:
       "Jogo de plataforma feito em Python utilizando a biblioteca PyGame. ",
     github: "https://github.com/netsoncavina/Python-Platformer-Game",
+    youtube: "https://youtube.com",
   },
   {
     name: "PlayBay",
@@ -48,6 +49,7 @@ export const projectList = [
     description:
       "E-commerce feito em Java, permite o cadastro de usuários, produtos e pedidos",
     github: "https://github.com/netsoncavina/spring-playbay",
+    heroku: "https://spring-playbay.herokuapp.com/",
   },
 
   {
@@ -74,5 +76,6 @@ export const projectList = [
     description:
       "Projeto realizado consumindo a API Data Dragon da RIOT, exibe dados sobre as regiões do jogo, como nomes, imagens, etc. Possui sistema de tradução do texto, podendo ter os textos alterados entre português, inglês e alemão",
     github: "https://github.com/netsoncavina/runeterra_travel_journal",
+    heroku: "https://runeterra-travel-journal.herokuapp.com/",
   },
 ];

@@ -14,14 +14,14 @@
   font-size: 35px;
   margin-bottom: 20px;
 }
-.project img {
+.projectImage {
   width: 700px;
   border-radius: 10px;
   margin-bottom: 10px;
   transition: transform 0.2s;
 }
 
-.project img:hover {
+.projectImage:hover {
   transform: scale(1.05);
 }
 
@@ -48,6 +48,12 @@
 .arrow-right {
   right: 10px;
   position: absolute;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 600px) {
