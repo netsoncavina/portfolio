@@ -70,6 +70,10 @@ a {
   cursor: pointer;
 }
 
+.item {
+  margin-bottom: 20px;
+}
+
 .item h2 {
   color: #070707;
 }
