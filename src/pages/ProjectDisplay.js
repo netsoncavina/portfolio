@@ -45,7 +45,7 @@ export default function ProjectDisplay() {
       <p className="description">{project.description}</p>
       <p className="link-description">Para mais informações:</p>
       <div className="icons">
-        <Tippy interactive={true} content={<a>Link para o repositório</a>}>
+        <Tippy interactive={false} content={<a>Link para o repositório</a>}>
           <a href={project.github} target="_blank">
             <GitHubIcon />
           </a>
@@ -54,7 +54,7 @@ export default function ProjectDisplay() {
           <div>
             <Tippy
               className="tooltip"
-              interactive={true}
+              interactive={false}
               content={<a>Video demonstração</a>}
             >
               <a className="icon" onClick={() => setIsOpen(true)}>
@@ -71,7 +71,7 @@ export default function ProjectDisplay() {
           </div>
         ) : null}
         {project.heroku ? (
-          <Tippy interactive={true} content={<a>Link para o site</a>}>
+          <Tippy interactive={false} content={<a>Link para o site</a>}>
             <a href={project.heroku} target="_blank">
               <img className="icon" src={herokuIcon} alt="heroku" />
             </a>
