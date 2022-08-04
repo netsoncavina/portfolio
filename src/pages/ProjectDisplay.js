@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import ModalVideo from "react-modal-video";
+import "react-modal-video/css/modal-video.min.css";
 import { projectList } from "../helpers/ProjectList";
 import "../styles/ProjectDisplay.css";
 import tabtitle from "../helpers/GeneralFunctions";
@@ -12,6 +14,9 @@ export default function ProjectDisplay() {
   const { id } = useParams();
   const project = projectList[id];
   tabtitle(project.name);
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="project">
       <div className="arrow-left">
@@ -47,9 +52,18 @@ export default function ProjectDisplay() {
           </a>
         ) : null}
         {project.youtube ? (
-          <a className="icon" href={project.youtube} target="_blank">
-            <YouTubeIcon />
-          </a>
+          <div>
+            <a className="icon" onClick={() => setIsOpen(true)}>
+              <YouTubeIcon />
+            </a>
+            <ModalVideo
+              channel="youtube"
+              autoplay
+              isOpen={isOpen}
+              videoId={project.youtube}
+              onClose={() => setIsOpen(false)}
+            />
+          </div>
         ) : null}
       </div>
     </div>

@@ -40,7 +40,7 @@ export const projectList = [
     description:
       "Jogo de plataforma feito em Python utilizando a biblioteca PyGame. ",
     github: "https://github.com/netsoncavina/Python-Platformer-Game",
-    youtube: "https://youtube.com",
+    youtube: "YYrog-_0TgM",
   },
   {
     name: "PlayBay",
@@ -68,6 +68,7 @@ export const projectList = [
     description:
       "Clone do Chrome Dino feito em Python utilizando a biblioteca PyGame",
     github: "https://github.com/netsoncavina/Chrome-Dinossaur-Clone",
+    youtube: "02a58cX08X4",
   },
   {
     name: "Runeterra Travel Journal",
