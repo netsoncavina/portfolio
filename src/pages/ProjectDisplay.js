@@ -42,15 +42,10 @@ export default function ProjectDisplay() {
       <h3>Técnologias: {project.skills}</h3>
       <p className="description">{project.description}</p>
       {/* <p className="link-description">Links uteis:</p> */}
-      <div className="links">
+      <div className="icons">
         <a href={project.github} target="_blank">
           <GitHubIcon />
         </a>
-        {project.heroku ? (
-          <a href={project.heroku} target="_blank">
-            <img className="icon" src={herokuIcon} alt="heroku" />
-          </a>
-        ) : null}
         {project.youtube ? (
           <div>
             <a className="icon" onClick={() => setIsOpen(true)}>
@@ -64,6 +59,11 @@ export default function ProjectDisplay() {
               onClose={() => setIsOpen(false)}
             />
           </div>
+        ) : null}
+        {project.heroku ? (
+          <a href={project.heroku} target="_blank">
+            <img className="icon heroku" src={herokuIcon} alt="heroku" />
+          </a>
         ) : null}
       </div>
     </div>
