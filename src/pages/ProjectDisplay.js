@@ -4,6 +4,8 @@ import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.min.css";
 import { projectList } from "../helpers/ProjectList";
 import "../styles/ProjectDisplay.css";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 import tabtitle from "../helpers/GeneralFunctions";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import YouTubeIcon from "@material-ui/icons/YouTube";
@@ -41,16 +43,24 @@ export default function ProjectDisplay() {
       <img className="projectImage" src={project.image} alt={project.name} />
       <h3>Técnologias: {project.skills}</h3>
       <p className="description">{project.description}</p>
-      {/* <p className="link-description">Links uteis:</p> */}
+      <p className="link-description">Para mais informações:</p>
       <div className="icons">
-        <a href={project.github} target="_blank">
-          <GitHubIcon />
-        </a>
+        <Tippy interactive={true} content={<a>Link para o repositório</a>}>
+          <a href={project.github} target="_blank">
+            <GitHubIcon />
+          </a>
+        </Tippy>
         {project.youtube ? (
           <div>
-            <a className="icon" onClick={() => setIsOpen(true)}>
-              <YouTubeIcon />
-            </a>
+            <Tippy
+              className="tooltip"
+              interactive={true}
+              content={<a>Video demonstração</a>}
+            >
+              <a className="icon" onClick={() => setIsOpen(true)}>
+                <YouTubeIcon />
+              </a>
+            </Tippy>
             <ModalVideo
               channel="youtube"
               autoplay
@@ -61,9 +71,11 @@ export default function ProjectDisplay() {
           </div>
         ) : null}
         {project.heroku ? (
-          <a href={project.heroku} target="_blank">
-            <img className="icon heroku" src={herokuIcon} alt="heroku" />
-          </a>
+          <Tippy interactive={true} content={<a>Link para o site</a>}>
+            <a href={project.heroku} target="_blank">
+              <img className="icon" src={herokuIcon} alt="heroku" />
+            </a>
+          </Tippy>
         ) : null}
       </div>
     </div>

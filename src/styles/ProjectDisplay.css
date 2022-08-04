@@ -62,6 +62,10 @@
   margin-left: 10px;
 }
 
+.tooltip {
+  margin-bottom: 30px;
+}
+
 @media only screen and (max-width: 600px) {
   .project h1 {
     width: 300px;
@@ -86,5 +90,8 @@
   }
   .icon {
     margin-left: 15px;
+  }
+  .tooltip {
+    display: none;
   }
 }
