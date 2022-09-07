@@ -41,7 +41,7 @@ export default function ProjectDisplay() {
       </div>
       <h1>{project.name}</h1>
       <img className="projectImage" src={project.image} alt={project.name} />
-      <h3>Técnologias: {project.skills}</h3>
+      <h3>Tecnologias: {project.skills}</h3>
       <p className="description">{project.description}</p>
       <p className="link-description">Para mais informações:</p>
       <div className="icons">

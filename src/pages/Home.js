@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1>Técnologias</h1>
+        <h1>Tecnologias</h1>
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
