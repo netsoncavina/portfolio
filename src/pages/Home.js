@@ -35,7 +35,7 @@ export default function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>HTML, CSS, Bootstrap, React </span>
+            <span>HTML, CSS, Bootstrap, React, Redux, Material UI </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
@@ -45,7 +45,7 @@ export default function Home() {
           </li>
           <li className="item">
             <h2>Linguagens</h2>
-            <span>Javascript, Python, C#, Java, C </span>
+            <span>Javascript, Python, C#, Flutter, Dart, Java, C </span>
           </li>
           <li className="item">
             <h2>Ferramentas</h2>
