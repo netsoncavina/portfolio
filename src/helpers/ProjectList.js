@@ -10,6 +10,15 @@ import projeto9 from "../assets/projeto9.png";
 
 export const projectList = [
   {
+    name: "Amigos de Patas",
+    image: projeto9,
+    skills: "HTML, CSS, React, Redux, Node.js, Express, MongoDB, Material-UI",
+    description:
+      "Uma rede social focada em conectar lares temporários ou abrigos para animais de rua com pessoas que queiram adotar um pet. O projeto foi desenvolvido em grupo, utilizando a metodologia ágil Scrum. O backend foi desenvolvido em Node.js, utilizando o Express e o MongoDB. O frontend foi desenvolvido em React, utilizando o Redux para gerenciar o estado da aplicação. O Material-UI foi utilizado para estilização.",
+    github: "https://github.com/netsoncavina/AmigosDePatas-frontend",
+    vercel: "https://amigosdepatas.vercel.app",
+  },
+  {
     name: "League of Legends profile viewer",
     image: projeto1,
     skills: "HTML, CSS, React, API",
