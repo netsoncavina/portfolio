@@ -12,6 +12,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import herokuIcon from "../assets/icones/cib-heroku.svg";
+import vercelIcon from "../assets/icones/vercel.svg";
 export default function ProjectDisplay() {
   const { id } = useParams();
   const project = projectList[id];
@@ -74,6 +75,13 @@ export default function ProjectDisplay() {
           <Tippy interactive={false} content={<a>Link para o site</a>}>
             <a href={project.heroku} target="_blank">
               <img className="icon" src={herokuIcon} alt="heroku" />
+            </a>
+          </Tippy>
+        ) : null}
+        {project.vercel ? (
+          <Tippy interactive={false} content={<a>Link para o site</a>}>
+            <a href={project.vercel} target="_blank">
+              <img className="icon" src={vercelIcon} alt="vercel" />
             </a>
           </Tippy>
         ) : null}
