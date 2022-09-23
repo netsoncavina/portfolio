@@ -49,7 +49,6 @@ export const projectList = [
     description:
       "E-commerce feito em Java, permite o cadastro de usuários, produtos e pedidos",
     github: "https://github.com/netsoncavina/spring-playbay",
-    heroku: "https://spring-playbay.herokuapp.com/",
   },
 
   {
