@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Home.css";
-// import LinkedinIcon from "@material-ui/icons/LinkedIn";
-// import GitHubIcon from "@material-ui/icons/GitHub";
-// import EmailIcon from "@material-ui/icons/Email";
+import GitHubIcon from "../assets/icones/github.svg";
+import EmailIcon from "../assets/icones/email.svg";
+import LinkedinIcon from "../assets/icones/linkedin.svg";
 import tabtitle from "../helpers/GeneralFunctions";
 export default function Home() {
   function emailObfuscation() {
@@ -18,16 +18,16 @@ export default function Home() {
         <div className="prompt">
           <p>Um desenvolvedor apaixonado por programar e aprender.</p>
           <a href="https://github.com/netsoncavina" target="_blank">
-            Github
+            <img className="icon" src={GitHubIcon} alt="github" />
           </a>
           <a target="_blank" id="email" onClick={emailObfuscation}>
-            Email
+            <img className="icon" src={EmailIcon} alt="email" />
           </a>
           <a
             href="https://www.linkedin.com/in/netson-cavina-487736115/"
             target="_blank"
           >
-            {/* <LinkedinIcon /> */} Linkedin
+            <img className="icon" src={LinkedinIcon} alt="linkedin" />
           </a>
         </div>
       </div>
@@ -36,12 +36,14 @@ export default function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>HTML, CSS, Bootstrap, React, Redux, Material UI </span>
+            <span>
+              HTML, CSS, Bootstrap, React, React Native, Redux, Material UI{" "}
+            </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, Java Spring, .NET, MongoDB, MySQL, SQL Server{" "}
+              NodeJS, ExpressJS, Java Spring, .NET, MongoDB, MySQL, SQL Server
             </span>
           </li>
           <li className="item">
@@ -50,7 +52,9 @@ export default function Home() {
           </li>
           <li className="item">
             <h2>Ferramentas</h2>
-            <span>VS Code, GIT, Visual Studio, Eclipse, Figma, Postman </span>
+            <span>
+              VS Code, GIT, Visual Studio, Eclipse, Figma, Postman, Insomnia{" "}
+            </span>
           </li>
         </ol>
       </div>

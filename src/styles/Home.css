@@ -29,6 +29,7 @@
   width: 40%;
   font-size: 30px;
 }
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
@@ -80,6 +81,14 @@ a {
 
 .item span {
   color: #46554b;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+  filter: invert(99%) sepia(0%) saturate(104%) hue-rotate(283deg)
+    brightness(101%) contrast(101%);
 }
 
 @media only screen and (max-width: 600px) {
