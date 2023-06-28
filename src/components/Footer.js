@@ -1,7 +1,7 @@
 import React from "react";
-// import InstagramIcon from "@material-ui/icons/Instagram";
-// import LinkedinIcon from "@material-ui/icons/LinkedIn";
-// import GitHubIcon from "@material-ui/icons/GitHub";
+import GitHubIcon from "../assets/icones/github.svg";
+import EmailIcon from "../assets/icones/email.svg";
+import LinkedinIcon from "../assets/icones/linkedin.svg";
 import "../styles/Footer.css";
 
 export default function Footer() {
@@ -9,19 +9,16 @@ export default function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <a href="https://github.com/netsoncavina" target="_blank">
-          {/* <GitHubIcon /> */} GitHub
-        </a>
-        <a href="https://www.instagram.com/netsoncavina/" target="_blank">
-          {/* <InstagramIcon /> */} Instagram
+          <img src={GitHubIcon} alt="GitHub" className="icon" />
         </a>
         <a
           href="https://www.linkedin.com/in/netson-cavina-487736115/"
           target="_blank"
         >
-          {/* <LinkedinIcon /> */} Linkedin
+          <img src={LinkedinIcon} alt="Linkedin" className="icon" />
         </a>
       </div>
-      <p> &copy; 2022 Netson Cavina</p>
+      <p> &copy; 2023 Netson Cavina</p>
     </div>
   );
 }
