@@ -7,12 +7,12 @@ import "../styles/ProjectDisplay.css";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import tabtitle from "../helpers/GeneralFunctions";
-// import GitHubIcon from "@material-ui/icons/GitHub";
-// import YouTubeIcon from "@material-ui/icons/YouTube";
-// import ArrowBackIcon from "@material-ui/icons/ArrowBack";
-// import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+import GitHubIcon from "../assets/icones/github.svg";
+import YouTubeIcon from "../assets/icones/youtube.svg";
 import herokuIcon from "../assets/icones/cib-heroku.svg";
 import vercelIcon from "../assets/icones/vercel.svg";
+import ArrowBack from "../assets/icones/arrow-back.svg";
+import ArrowForward from "../assets/icones/arrow-forward.svg";
 export default function ProjectDisplay() {
   const { id } = useParams();
   const project = projectList[id];
@@ -25,8 +25,7 @@ export default function ProjectDisplay() {
       <div className="arrow-left">
         {id > 0 ? (
           <Link to={`/project/${id - 1}`}>
-            {/* <ArrowBackIcon /> */}
-            Proximo
+            <img className="arrow" src={ArrowBack} alt="arrow-back" />
           </Link>
         ) : (
           <div></div>
@@ -35,8 +34,7 @@ export default function ProjectDisplay() {
       <div className="arrow-right">
         {id < 7 ? (
           <Link to={`/project/${Number(id) + 1}`}>
-            {/* <ArrowForwardIcon /> */}
-            Anterior
+            <img className="arrow" src={ArrowForward} alt="arrow-forward" />
           </Link>
         ) : (
           <div></div>
@@ -50,7 +48,7 @@ export default function ProjectDisplay() {
       <div className="icons">
         <Tippy interactive={false} content={<a>Link para o repositório</a>}>
           <a href={project.github} target="_blank">
-            {/* <GitHubIcon /> */} GitHub
+            <img className="icon github" src={GitHubIcon} alt="github" />
           </a>
         </Tippy>
         {project.youtube ? (
@@ -61,7 +59,7 @@ export default function ProjectDisplay() {
               content={<a>Video demonstração</a>}
             >
               <a className="icon" onClick={() => setIsOpen(true)}>
-                {/* <YouTubeIcon /> */} Youtube
+                <img className="icon" src={YouTubeIcon} alt="youtube" />
               </a>
             </Tippy>
             <ModalVideo
