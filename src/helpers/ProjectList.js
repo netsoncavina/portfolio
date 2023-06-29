@@ -7,8 +7,18 @@ import projeto6 from "../assets/projeto6.png";
 import projeto7 from "../assets/projeto7.png";
 import projeto8 from "../assets/projeto8.png";
 import projeto9 from "../assets/projeto9.png";
+import projeto10 from "../assets/projeto10.png";
 
 export const projectList = [
+  {
+    name: "Arena RPG",
+    image: projeto10,
+    skills: "React Native, Expo, Node.js, Express, MongoDB, Socket.io",
+    description:
+      "Rede social focada em conectar jogadores de RPG. O projeto foi desenvolvido utilizando React Native, Expo, Node.js, Express, MongoDB e Socket.io. O Expo foi utilizado para facilitar o desenvolvimento do aplicativo, permitindo a visualização do aplicativo em tempo real no celular. O Socket.io foi utilizado para a interação em tempo real entre os usuários. O MongoDB foi utilizado para armazenar os dados dos usuários. O Node.js e o Express foram utilizados para criar a API REST que comunica o aplicativo com o banco de dados.",
+    github: "https://github.com/netsoncavina/HeroisDoRPG-app",
+    // youtube: "https://www.youtube.com/watch?v=qKqfSCmELTo",
+  },
   {
     name: "Amigos de Patas",
     image: projeto9,
