@@ -62,6 +62,20 @@
   margin-left: 10px;
 }
 
+.github {
+  filter: invert(0%) sepia(0%) saturate(26%) hue-rotate(260deg) brightness(94%)
+    contrast(101%);
+}
+
+.youtube {
+  filter: invert(20%) sepia(83%) saturate(3230%) hue-rotate(353deg)
+    brightness(82%) contrast(97%);
+}
+
+.arrow {
+  height: 55px;
+}
+
 .tooltip {
   margin-bottom: 30px;
 }
