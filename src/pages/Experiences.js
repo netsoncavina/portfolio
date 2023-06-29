@@ -4,7 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import "../styles/Experiences.css";
 import SchoolIcon from "../assets/icones/college.svg";
 import WorkIcon from "../assets/icones/work.svg";
 import tabtitle from "../helpers/GeneralFunctions";
