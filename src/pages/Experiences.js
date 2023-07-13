@@ -28,9 +28,8 @@ export default function Experiences() {
               src={SchoolIcon}
               alt="school icon"
               style={{
-                height: "55px",
+                height: "45px",
                 width: "55px",
-                margin: "auto",
                 filter:
                   "invert(99%) sepia(0%) saturate(104%) hue-rotate(283deg) brightness(101%) contrast(101%)",
               }}
@@ -57,9 +56,8 @@ export default function Experiences() {
               src={SchoolIcon}
               alt="school icon"
               style={{
-                height: "55px",
+                height: "45px",
                 width: "55px",
-                margin: "auto",
                 filter:
                   "invert(99%) sepia(0%) saturate(104%) hue-rotate(283deg) brightness(101%) contrast(101%)",
               }}
@@ -84,9 +82,8 @@ export default function Experiences() {
               src={SchoolIcon}
               alt="school icon"
               style={{
-                height: "55px",
+                height: "45px",
                 width: "55px",
-                margin: "auto",
                 filter:
                   "invert(99%) sepia(0%) saturate(104%) hue-rotate(283deg) brightness(101%) contrast(101%)",
               }}
@@ -111,9 +108,8 @@ export default function Experiences() {
               src={WorkIcon}
               alt="work icon"
               style={{
-                height: "45px",
+                height: "35px",
                 width: "45px",
-                margin: "auto",
               }}
             />
           }
@@ -137,9 +133,8 @@ export default function Experiences() {
               src={WorkIcon}
               alt="work icon"
               style={{
-                height: "45px",
+                height: "35px",
                 width: "45px",
-                margin: "auto",
               }}
             />
           }
@@ -166,9 +161,8 @@ export default function Experiences() {
               src={SchoolIcon}
               alt="school icon"
               style={{
-                height: "55px",
+                height: "45px",
                 width: "55px",
-                margin: "auto",
                 filter:
                   "invert(99%) sepia(0%) saturate(104%) hue-rotate(283deg) brightness(101%) contrast(101%)",
               }}
@@ -194,9 +188,8 @@ export default function Experiences() {
               src={WorkIcon}
               alt="work icon"
               style={{
-                height: "45px",
+                height: "35px",
                 width: "45px",
-                margin: "auto",
               }}
             />
           }
@@ -220,15 +213,13 @@ export default function Experiences() {
               src={WorkIcon}
               alt="work icon"
               style={{
-                height: "45px",
+                height: "35px",
                 width: "45px",
-                margin: "auto",
               }}
             />
           }
         >
           <h3 className="vertical-timeline-element-title">Desenvolvedor PJ</h3>
-          {/* <h5>Desenvolvimento Full Stack</h5> */}
           <p>Desenvolvedor Fullstack</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
