@@ -8,6 +8,7 @@ import projeto7 from "../assets/projeto7.png";
 import projeto8 from "../assets/projeto8.png";
 import projeto9 from "../assets/projeto9.png";
 import projeto10 from "../assets/projeto10.png";
+import projeto11 from "../assets/projeto11.png";
 
 export const projectList = [
   {
@@ -19,6 +20,15 @@ export const projectList = [
     github: "https://github.com/netsoncavina/HeroisDoRPG-app",
     categories: ["mobile"],
     youtube: "https://www.youtube.com/watch?v=qKqfSCmELTo",
+  },
+  {
+    name: "Neko Ninja",
+    image: projeto11,
+    skills: "React Native, Expo, API Externa",
+    description:
+      "App voltado para fãs de animes, com informações sobre animes. O projeto foi desenvolvido utilizando React Native e Expo. A API externa utilizada foi a Enime API, que fornece informações sobre os animes e seus episódios.",
+    github: "https://github.com/netsoncavina/NekoNinja",
+    categories: ["mobile"],
   },
   {
     name: "Amigos de Patas",
