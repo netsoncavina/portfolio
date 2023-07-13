@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-// import ReorderIcon from "@material-ui/icons/Reorder";
+import HamburguerIcon from "./HamburguerIcon";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ function Navbar() {
             setIsOpen((prev) => !prev);
           }}
         >
-          {/* <ReorderIcon /> */} Menu
+          <HamburguerIcon isOpen={isOpen} />
         </button>
       </div>
       <div className="links">
