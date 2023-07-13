@@ -207,7 +207,7 @@ export default function Experiences() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2019 - 2020"
+          date="2019 - atualmente"
           iconStyle={{
             background: "#ECD444",
             color: "#fff",
