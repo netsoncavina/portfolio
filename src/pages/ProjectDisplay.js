@@ -80,7 +80,7 @@ export default function ProjectDisplay() {
         ) : null}
         {project.vercel ? (
           <Tippy interactive={false} content={<a>Link para o site</a>}>
-            <a href={project.vercel} target="_blank">
+            <a href={project.vercel} target="_blank" className="icon">
               <img className="icon" src={vercelIcon} alt="vercel" />
             </a>
           </Tippy>
