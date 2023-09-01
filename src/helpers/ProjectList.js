@@ -18,7 +18,8 @@ export const projectList = [
     description:
       "Rede social focada em conectar jogadores de RPG. O projeto foi desenvolvido utilizando React Native, Expo, Node.js, Express, MongoDB e Socket.io. O Expo foi utilizado para facilitar o desenvolvimento do aplicativo, permitindo a visualização do aplicativo em tempo real no celular. O Socket.io foi utilizado para a interação em tempo real entre os usuários. O MongoDB foi utilizado para armazenar os dados dos usuários. O Node.js e o Express foram utilizados para criar a API REST que comunica o aplicativo com o banco de dados.",
     github: "https://github.com/netsoncavina/HeroisDoRPG-app",
-    categories: ["mobile"],
+    vercel: "https://arena-rpg-netsoncavina.vercel.app",
+    categories: ["web", "mobile"],
     youtube: "https://www.youtube.com/watch?v=qKqfSCmELTo",
   },
   {
