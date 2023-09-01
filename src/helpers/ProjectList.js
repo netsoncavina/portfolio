@@ -20,7 +20,7 @@ export const projectList = [
     github: "https://github.com/netsoncavina/HeroisDoRPG-app",
     vercel: "https://arena-rpg-netsoncavina.vercel.app",
     categories: ["web", "mobile"],
-    youtube: "https://www.youtube.com/watch?v=qKqfSCmELTo",
+    // youtube: "https://www.youtube.com/watch?v=qKqfSCmELTo",
   },
   {
     name: "Neko Ninja",
