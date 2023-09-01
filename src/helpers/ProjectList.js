@@ -14,9 +14,9 @@ export const projectList = [
   {
     name: "Arena RPG",
     image: projeto10,
-    skills: "React Native, Expo, Node.js, Express, MongoDB, Socket.io",
+    skills: "NextJs, React, React Native, Expo, Node.js, Express, Firebase",
     description:
-      "Rede social focada em conectar jogadores de RPG. O projeto foi desenvolvido utilizando React Native, Expo, Node.js, Express, MongoDB e Socket.io. O Expo foi utilizado para facilitar o desenvolvimento do aplicativo, permitindo a visualização do aplicativo em tempo real no celular. O Socket.io foi utilizado para a interação em tempo real entre os usuários. O MongoDB foi utilizado para armazenar os dados dos usuários. O Node.js e o Express foram utilizados para criar a API REST que comunica o aplicativo com o banco de dados.",
+      "Rede social focada em conectar jogadores de RPG. O projeto foi desenvolvido utilizando NextJs para a versão web e React Native e Expo para o mobile. O back end foi desenvolvido com Node.js, Express e Firebase. O Expo foi utilizado para facilitar o desenvolvimento do aplicativo, permitindo a visualização do aplicativo em tempo real no celular. O Node.js e o Express foram utilizados para criar a API REST que comunica o aplicativo com o banco de dados.",
     github: "https://github.com/netsoncavina/HeroisDoRPG-app",
     vercel: "https://arena-rpg-netsoncavina.vercel.app",
     categories: ["web", "mobile"],
